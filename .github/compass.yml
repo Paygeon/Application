@@ -1,0 +1,19 @@
+name: loanapp
+id: 'ari:cloud:compass:d74e2c72-d73a-42cf-afdd-b52f0ebfed0c:component/d33d12db-01f8-415d-9f33-4c60fe378969/fc6a1603-9f30-4bcf-b2a9-fbac3060d40e'
+description: null
+configVersion: 1
+typeId: APPLICATION
+ownerId: 'ari:cloud:identity::team/5c41e4c5-30dc-4672-8ef5-b23c4e2d0bcc'
+fields:
+  lifecycle: Active
+  tier: 1
+links:
+  - name: null
+    type: REPOSITORY
+    url: 'https://github.com/Paygeon/loanapp'
+relationships: {}
+labels: null
+customFields: null
+
+# Learn more about formatting compass.yml:
+# https://go.atlassian.com/compass-yml-format
