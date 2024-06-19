@@ -28,7 +28,9 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://paygeon.github.io/loanapp",
+
+  "homepage": "https://paygeon.github.io/aesthetics-card-loan-app",
+]
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
