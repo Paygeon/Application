@@ -120,9 +120,9 @@ export default function useData(){
             if(response.status !== "success"){
                 // alert("Your form have been submitted and we will get back to you as soon we process this info")
                 api.error(response.errror_message)
-                setIsSubmitted(true)
                 return;
             }
+            setIsSubmitted(true)
         } catch (error) {
             console.log(error)
             api.error("Sorry could not submit application at the moment please try again later")

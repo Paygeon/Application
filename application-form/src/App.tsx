@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 const App: React.FC = () => {
   const {currentStep,isSubmitted,previousStep} = useContext(DataContext)
 
-  if(!isSubmitted) return <AfterSubmitting/>;
+  if(isSubmitted) return <AfterSubmitting/>;
   return (
       <ConfigProvider
       theme={{
