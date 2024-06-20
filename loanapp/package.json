@@ -30,7 +30,7 @@
   },
 
   "homepage": "https://paygeon.github.io/aesthetics-card-loan-app",
-]
+
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
