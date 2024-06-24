@@ -29,7 +29,7 @@ export default function Header() {
             <h2>Login</h2>
           </button>
           <button onClick={handleRegister}>
-            <h2>Register</h2>
+            <h2 className = 'ml-10'>Register</h2>
           </button>
         </div>
       </div>
