@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Eclipse Hero</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="header">
+  <h2><a href="/" target="_blank" rel="noopener noreferrer">Paygeon</a></h2>
+  <div class="mid-spot" onclick="document.body.classList.toggle('gold');"></div>
+  <button class="contact-btn">
+    <span class="glow"></span>
+    <span class="contact-btn-content">Star on GitHub</span>
+  </button>
+
+  <div class="spotlight">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+
+<canvas id="particleCanvas"></canvas>
+
+<div class="accent-lines">
+  <div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+
+<div class="heroSubP">
+  <p>Introducing</p>
+</div>
+
+<div class="hero">
+  <div class="heroT">
+    <h2>Open source global lending</h2>
+    <h2>Open source global lending</h2>
+  </div>
+</div>
+
+<p class="heroP">Create a lending program in less than 20 minutes. Boost conversions, increase retention, and add an additional revenue stream by following the step by step guide below.</p>
+
+<div class="mountains">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+<div class="hero-spacer"></div>
+
+<div class="content-section">
+  <div class="content-acc">
+    <div></div>
+    <div></div>
+  </div>
+  <p class="subt">Revolutionary by design</p>
+  <h3 class="title">Empowering Open Source Lending
+</h3>
+  <p class="subp">Our initiative redefines lending through open source principles, offering modular components and cutting-edge technology tailored for the large masses. Central to our solution is a pioneering framework that ensures flexibility across diverse industries.</p>
+</div>
+
+<div class="parent-container">
+  <div class="glowing-code-container">
+    <pre>
+      <code class="language-js">
+        // Step 1: Clone the Repository
+        git clone https://github.com/Paygeon/loanapp.git
+        cd loanapp
+      </code>
+    </pre>
+  </div>
+
+  <div class="glowing-code-container">
+    <pre>
+      <code class="language-js">
+        // Step 2: Install Dependencies
+        npm install
+      </code>
+    </pre>
+  </div>
+
+  <div class="glowing-code-container">
+    <pre>
+      <code class="language-js">
+        // Step 3: Configure Environment Variables
+        # Firebase
+        NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
+        NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
+        NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+        NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project_id.appspot.com
+        NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+        NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
+
+        # SendGrid
+        SENDGRID_API_KEY=your_sendgrid_api_key
+      </code>
+    </pre>
+  </div>
+
+  <div class="glowing-code-container">
+    <pre>
+      <code class="language-js">
+        // Step 4: Set Up Firebase
+        // Initialize Firebase CLI
+        npm install -g firebase-tools
+
+        // Log in to Firebase
+        firebase login
+
+        // Initialize Firebase in your project
+        firebase init
+      </code>
+    </pre>
+  </div>
+
+  <div class="glowing-code-container">
+    <pre>
+      <code class="language-js">
+        // Step 5: Configure Tailwind CSS
+        // Install Tailwind CSS and its peer dependencies via npm
+        npm install -D tailwindcss postcss autoprefixer
+        npx tailwindcss init -p
+
+        // Configure Tailwind to remove unused styles in production
+        // Edit tailwind.config.js
+        module.exports = {
+          purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+          darkMode: false, // or 'media' or 'class'
+          theme: {
+            extend: {},
+          },
+          variants: {
+            extend: {},
+          },
+          plugins: [],
+        };
+      </code>
+    </pre>
+  </div>
+
+  <div class="glowing-code-container">
+    <pre>
+      <code class="language-js">
+        // Step 6: Running the Project
+        // Start the development server
+        npm run dev
+      </code>
+    </pre>
+  </div>
+
+  <div class="glowing-code-container">
+    <pre>
+      <code class="language-js">
+        // Step 7: Testing the Setup
+        // Run the project's tests
+        npm run test
+      </code>
+    </pre>
+  </div>
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
